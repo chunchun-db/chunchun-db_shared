@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "lib": ["es2020"],
+        "module": "commonjs",
+        "target": "es6",
+
+        "outDir": "dist",
+        "baseUrl": "src",
+        "sourceMap": true,
+        "declaration": true,
+
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true
+    },
+    "include": ["src/**/*"]
+}
